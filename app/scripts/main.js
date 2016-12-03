@@ -1,6 +1,5 @@
 $(function() {
-  $.getJSON('scripts/photos.json', function(json, textStatus) {
-    console.log('hi', json)
+  $.getJSON('data/photos.json', function(json, textStatus) {
     $.each(json.photos, function(index, photo) {
       console.log(photo);
       var $photo = $(`
