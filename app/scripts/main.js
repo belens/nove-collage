@@ -7,7 +7,7 @@ $(function() {
         <a href="#" class="photo__link">
           <span class="highlight"></span>
           <img class="photo__image" alt="` + photo.name + `"/>
-          <h2 class='photo__title'>` + photo.name + `</h2>
+          <h2 class='photo__title hidden'>` + photo.name + `</h2>
         </a>
       </div>`);
       $photo.find('img').attr('src', photo.url);
