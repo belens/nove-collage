@@ -22,6 +22,7 @@ body {
 }
 
 .collage {
+  max-width: 1200px;
   margin: 0 auto;
   text-align: center;
 }
@@ -99,6 +100,9 @@ body {
   transition: opacity 0.15s ease-in;
   text-shadow: 0 2px 2px rgba( 0, 0, 0, 0.06 );
   margin: 0;
+
+  bottom: 10px;
+  color: #000;
 
   .photo:hover & {
     opacity: 0.8;

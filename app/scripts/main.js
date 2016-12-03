@@ -7,8 +7,8 @@ $(function() {
         <a href="#" class="photo__link">
           <span class="highlight"></span>
           <img class="photo__image" alt="` + photo.name + `"/>
+          <h2 class='photo__title'>` + photo.name + `</h2>
         </a>
-        <h2 class='photo__title'>` + photo.name + `</h2>
       </div>`);
       $photo.find('img').attr('src', photo.url);
       $('.collage').append($photo);
